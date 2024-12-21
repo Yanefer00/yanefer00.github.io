@@ -6,8 +6,7 @@ function roundVal(val){
 	result=result.toFixed(2);
 	return result;
 }
-
-
+ 
 function addVAT(){
 
 if(document.calcform.input.value.length<=1){
