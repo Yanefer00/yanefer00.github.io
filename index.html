@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0]
+                  , j = d.createElement(s)
+                  , dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            }
+            )(window, document, 'script', 'dataLayer', 'GTM-M9DMRBG');
+        </script>
+        <!-- End Google Tag Manager -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <!-- end declare -->
+        <!-- end declare -->
+        <title>Online VAT Calculator</title>
+        <meta name="description" content="Free UK VAT calculator.  We have created this VAT calculator as a free to use tool for calculating VAT rates in the UK."/>
+        <meta name="keywords" content="vat,vat calculator,vat calc,calculate vat"/>
+        <!-- start header -->
+        <link href="/branding/stylesheets/style.css?v=1.1.20.13" rel="stylesheet" type="text/css"/>
+        <link href="/branding/stylesheets/ui-lightness/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="/branding/javascript/calculator.js"></script>
+        <script type="text/javascript" src="/branding/javascript/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="/branding/javascript/jquery-ui-1.7.2.custom.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $("#slider").slider({
+                    value: 20,
+                    min: 10,
+                    max: 25,
+                    step: 0.5,
+                    slide: function(event, ui) {
+                        $("#vatamount").val(ui.value + '%');
+                    }
+                });
+                $("#vatamount").val($("#slider").slider("value") + '%');
+            });
+        </script>
+        <style type="text/css">
+            .ui-slider-horizontal .ui-state-default {
+                background: url(/images/slider.png) no-repeat scroll 50% 50%;
+                border: none;
+                display: inline;
+            }
+
+            #slider-bar {
+                background-color: #878995;
+            }
+        </style>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2641187-7']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            }
+            )();
+        </script>
+    </head>
+    <body onLoad="MM_preloadImages('/images/numbers/7_on.gif','/images/numbers/8_on.gif','/images/numbers/9_on.gif','/images/numbers/4_on.gif','/images/numbers/5_on.gif','/images/numbers/6_on.gif','/images/numbers/1_on.gif','/images/numbers/2_on.gif','/images/numbers/3_on.gif','/images/numbers/cancel_on.gif','/images/numbers/0_on.gif','/images/numbers/point_on.gif','/images/numbers/addvat_on.gif','/images/numbers/remvat_on.gif','/images/numbers/2_active.gif','/images/numbers/7_active.gif','/images/numbers/addvat_active.gif','/images/numbers/8_active.gif','/images/numbers/9_active.gif','/images/numbers/4_active.gif','/images/numbers/5_active.gif','/images/numbers/6_active.gif','/images/numbers/1_active.gif','/images/numbers/3_active.gif','/images/numbers/cancel_active.gif','/images/numbers/0_active.gif','/images/numbers/point_active.gif','/images/numbers/remvat_active.gif')">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9DMRBG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div id="wrapper">
+            <div id="header">
+                <div id="topbanner">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- VatCalc728x90 -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9612299841169670" data-ad-slot="9484049546"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <img src="/images/vat_calculator.gif" width="195" height="95"/>
+                <div style="clear:both"></div>
+            </div>
+            <div id="nav">
+                <p>
+                    <a href="/">VAT Calculator</a>
+                    &nbsp;&nbsp;<span class="white">|</span>
+                    &nbsp;&nbsp;<a href="/what_is_vat.html">What is VAT?</a>
+                    &nbsp;&nbsp;<span class="white">|</span>
+                    &nbsp;&nbsp;<a href="/current_vat_rate.html">Current VAT Rate</a>
+                    &nbsp;&nbsp;<span class="white">|</span>
+                    &nbsp;&nbsp;
+                    <a href="/flat_rate_vat.html">
+                        The Flat Rate VAT Scheme &nbsp;&nbsp;<span class="white">|</span>
+                        &nbsp;&nbsp;<a href="https://www.contractoruk.com/vat/struggling_pay_your_vat.html">Struggling to pay your VAT?</a>
+                    </a>
+                </p>
+            </div>
+            <div id="container">
+                <div id="page">
+                    <div id="break">
+                        <div id="content">
+                            <!-- end header -->
+                            <!-- start content -->
+                            <!-- START OF CALCULATOR -->
+                            <div id="calculatorbase">
+                                <form id="calcform" name="calcform" method="post" action="">
+                                    <div id="calcContent" name="calcContent">
+                                        <div id="calculator">
+                                            <input name="input" type="text" id="input" value="£" class="textfield" onKeyPress="return goodchars(event,'0123456789.')"/>
+                                            <img src="/images/numbers/7.gif" alt="7" width="66" height="41" id="7" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('7','','/images/numbers/7_active.gif',1);" onMouseOver="MM_swapImage('7','','/images/numbers/7_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/8.gif" alt="8" width="66" height="41" id="8" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('8','','/images/numbers/8_active.gif',1);" onMouseOver="MM_swapImage('8','','/images/numbers/8_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/9.gif" alt="9" width="66" height="41" id="9" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('9','','/images/numbers/9_active.gif',1);" onMouseOver="MM_swapImage('9','','/images/numbers/9_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <br/>
+                                            <img src="/images/numbers/4.gif" alt="4" width="66" height="41" id="4" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('4','','/images/numbers/4_active.gif',1);" onMouseOver="MM_swapImage('4','','/images/numbers/4_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/5.gif" alt="5" width="66" height="41" id="5" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('5','','/images/numbers/5_active.gif',1);" onMouseOver="MM_swapImage('5','','/images/numbers/5_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/6.gif" alt="6" width="66" height="41" id="6" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('6','','/images/numbers/6_active.gif',1);" onMouseOver="MM_swapImage('6','','/images/numbers/6_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <br/>
+                                            <img src="/images/numbers/1.gif" alt="1" width="66" height="41" id="1" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('1','','/images/numbers/1_active.gif',1);" onMouseOver="MM_swapImage('1','','/images/numbers/1_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/2.gif" alt="2" width="66" height="41" id="2" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('2','','/images/numbers/2_active.gif',1);" onMouseOver="MM_swapImage('2','','/images/numbers/2_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <img src="/images/numbers/3.gif" alt="3" width="66" height="41" id="3" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('3','','/images/numbers/3_active.gif',1);" onMouseOver="MM_swapImage('3','','/images/numbers/3_on.gif',1);" onMouseOut="MM_swapImgRestore();"/>
+                                            <br/>
+                                            <img src="/images/numbers/cancel.gif" alt="Reset form" width="66" height="35" id="cancel" onClick="clearCalc();" onMouseDown="MM_swapImage('cancel','','/images/numbers/cancel_active.gif',1)" onMouseOver="MM_swapImage('cancel','','/images/numbers/cancel_on.gif',1)" onMouseOut="MM_swapImgRestore()"/>
+                                            <img src="/images/numbers/0.gif" alt="0" width="66" height="35" id="0" onClick="enterNumber(this.id);" onMouseDown="MM_swapImage('0','','/images/numbers/0_active.gif',1)" onMouseOver="MM_swapImage('0','','/images/numbers/0_on.gif',1)" onMouseOut="MM_swapImgRestore()"/>
+                                            <img src="/images/numbers/point.gif" alt="Point" width="66" height="35" id="point" onClick="enterNumber('.');" onMouseDown="MM_swapImage('point','','/images/numbers/point_active.gif',1)" onMouseOver="MM_swapImage('point','','/images/numbers/point_on.gif',1)" onMouseOut="MM_swapImgRestore()"/>
+                                            <p style="margin-top:5px">Rate of VAT</p>
+                                            <div style="float:left; width: 135px;">
+                                                <div id="slider"></div>
+                                            </div>
+                                            <div style="float:left; width: 50px;">
+                                                <input type="text" id="vatamount" name="vatamount" style="border:0; color:#fff; font-weight:bold; background: none; font-size:1.3em; display: inline;"/>
+                                            </div>
+                                            <div style="clear:both; margin-bottom:10px"></div>
+                                            <img src="/images/numbers/addvat.gif" alt="Add VAT" id="add" onClick="return addVAT();" onMouseDown="MM_swapImage('add','','/images/numbers/addvat_active.gif',1)" onMouseOver="MM_swapImage('add','','/images/numbers/addvat_on.gif',1)" onMouseOut="MM_swapImgRestore()"/>
+                                            <img src="/images/numbers/remvat.gif" alt="Remove VAT" width="99" height="33" id="remove" onClick="return remVAT();" onMouseDown="MM_swapImage('remove','','/images/numbers/remvat_active.gif',1)" onMouseOver="MM_swapImage('remove','','/images/numbers/remvat_on.gif',1)" onMouseOut="MM_swapImgRestore()"/>
+                                        </div>
+                                    </div>
+                                    <div id="resultsContent" name="resultsContent" style="visibility: hidden; display: none;">
+                                        <div id="results">
+                                            <p>
+                                                Net Amount <span>(excluding VAT)</span>
+                                            </p>
+                                            <input name="netAmount" readonly type="text" id="netAmount" class="resultfield" value="123456"/>
+                                            <p>
+                                                VAT 
+                                                <span>
+                                                    (at<input type="text" class="vatat" readonly name="vatAt" id="vatAt"/>
+                                                </span>
+                                            </p>
+                                            <input name="VAT" readonly type="text" id="VAT" class="resultfield" value="12426"/>
+                                            <p>
+                                                Gross Amount <span>(including VAT)</span>
+                                            </p>
+                                            <input name="gross" readonly type="text" id="gross" class="resultfield" value="12426"/>
+                                            <p>Calculation based on:</p>
+                                            <input name="basedOn" readonly type="text" id="basedOn" class="resultfield" value="12426"/>
+                                            <div id="startAgainDiv">
+                                                <a href="javascript: startAgain();">Start again >></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div style="clear:both"></div>
+                            </div>
+                            <!-- END OF CALCULATOR -->
+                            <h1 class="homepage">
+                                <span style="color:#FF0000; display:none;">Welcome to VAT Calculator</span>
+                            </h1>
+                            <p class="intro">Welcome to our site. We have created this site due to the recent changes to VAT rates. We could not find a similar site that allowed  users to change the amount of VAT so created this so that business users and individuals have access to a calculator where the VAT rate could be changed and VAT could be added to a net amount or subtracted from a gross amount in an easy manner.</p>
+                            <p class="intro">&nbsp;</p>
+                            <p class="intro">The VAT rate for the UK currently stands at 20 per cent, this  was changed from 17.5 per cent on the 4th of January 2011.  The standard rate of VAT was  temporarily reduced to 15 per cent on 1 December 2008. This was put back to 17.5% on the 20th January 2010.</p>
+                            <div id="goorelated">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- VatCalcRelatedTopics -->
+                                <ins class="adsbygoogle" style="display:inline-block;width:468px;height:15px" data-ad-client="ca-pub-9612299841169670" data-ad-slot="1960782742"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                            <p style="margin-top:10px">
+                                <a href="/current_vat_rate.html">
+                                    <strong>Please click here for VAT Rate information</strong>
+                                </a>
+                            </p>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div id="container2">
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/money/contractor-mortgages.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/ContractorMortgage1.jpg" alt="Contractor Mortgages" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/money/contractor-mortgages.html">Contractor Mortgages</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/money/contractor_pensions_advice.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/ContractorPensions1.jpg" alt="Contractor Pensions" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/money/streamline_your_retirement_isipp_solution_contractor_pensions.html">Contractor Pensions</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/insurance/professional_indemnity.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/PIInsurance1.jpg" alt="PI Insurance" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/insurance/professional_indemnity.html">PI Insurance</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/overseas_guides" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/ContractingOverseas1.jpg" alt="Contracting Overseas" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/overseas_guides">Contracting Overseas</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/umbrella_company/contractor_umbrella_company.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/sg-umbrella-icon.png" alt="Contractor Umbrella" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/umbrella_company/contractor_umbrella_company.html">Contractor Umbrella</a>
+                            </center>
+                        </div>
+                    </div>
+                    <div id="container2">
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/mvl/contractor_mvl_solution_sfp_group.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/InsolvencySolutions1.jpg" alt="Closing your company" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/mvl/contractor_mvl_solution_sfp_group.html">Closing your company</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/money/contractor_accountants.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/sg-accounting-icon.png" alt="Contractor Accounting" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/money/contractor_accountants.html">Contractor Accounting</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/directory/online_accounting_software.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/AccountingSoftware1.jpg" alt="Accounting Software" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/directory/online_accounting_software.html">Accounting Software</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/insurance/ir35_insurance.html" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/ir35-1.jpg" alt="IR35 Insurance" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/insurance/ir35_insurance.html">IR35 Insurance</a>
+                            </center>
+                        </div>
+                        <div class="cukitem">
+                            <a href="https://www.contractoruk.com/it_contract_jobs/" target="_blank">
+                                <img src="https://www.contractoruk.com/images/hp-icons/cuk/job.jpg" alt="IT Contract Jobs" width="100" height="100" border="0"/>
+                            </a>
+                            <center class="icon-font">
+                                <a class="icon-font" href="https://www.contractoruk.com/it_contract_jobs/">IT Contract Jobs</a>
+                            </center>
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+                    <br/>
+                    <div id="container2">
+                        <div id="narrowcol">
+                            <h2>More to come!</h2>
+                            We will be launching a range of guides and articles to cover a range of VAT related issues over the coming weeks and months. If you would like any information regarding VAT or any issues surrounding Value Added or any other Tax then do let us know.
+                        </div>
+                        <h2>About Value Added Tax</h2>
+                        <div style="width:210px; float:left; ">
+                            VAT - or Value Added Tax - is charged by businesses at the point of sale of goods and services sold in the UK and the Isle of Man. Basically it is a tax on business transactions.<br/>
+                            <br/>
+                            Value Added Tax was introduced in 1973 as a replacement for Purchase Tax and Selective Employment Tax, as a condition of UK entry into the European Economic Community.<br/>
+                            <br/>The reduction in the standard rate of VAT from 17.5% to 15% was prompted by the recent financial turmoil in the global financial system in 2008 and increased to 20% in January 2011.  
+
+                        </div>
+                        <div style="width:210px; float:right; padding-right:30px">
+                            The Chancellor stated that the temporary reduction would last for 13 months before returning to 17.5 per cent in January 2010. <br/>
+                            <br/>The Chancellor stated in his 2008 Pre-Budget report that "This temporary reduction is the equivalent of the Government giving back some 12 and a half billion pounds to consumers to boost the economy.&quot;
+                        </div>
+                    </div>
+                    <div id="container2">
+                        <p>
+                            If you are looking for more calculators such as dividend tax, IR35 and more then check out the <a href="http://www.contractoruk.com/calculators/" target="_blank" style="padding:0; margin:0;">Contractor Calculator</a>
+                            .
+                        </p>
+                        <!-- end content -->
+                        <!-- start footer -->
+                    </div>
+                </div>
+            </div>
+            <div id="sponsors">
+                <img src="/images/spacer.gif" alt="banner holder" width="160px" height="15px"/>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Vat Calc Skyscraper -->
+                <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9612299841169670" data-ad-slot="8007316344"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                <img src="/images/spacer.gif" alt="banner holder" width="160px" height="20px"/>
+            </div>
+            <div style="clear:both"></div>
+            <div id="footer">
+                <a href="privacy_policy.html" rel="nofollow">Privacy Policy</a>
+            </div>
+        </div>
+        <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+        <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+        <script type="text/javascript" charset="UTF-8">
+            document.addEventListener('DOMContentLoaded', function() {
+                cookieconsent.run({
+                    "notice_banner_type": "simple",
+                    "consent_type": "express",
+                    "palette": "light",
+                    "language": "en",
+                    "page_load_consent_levels": ["strictly-necessary"],
+                    "notice_banner_reject_button_hide": false,
+                    "preferences_center_close_button_hide": false,
+                    "website_name": "VAT Calculator",
+                    "website_privacy_policy_url": "http://www.vatcalculator.co.uk/privacy_policy.html"
+                });
+            });
+        </script>
+        <noscript>
+            Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow noopener">FreePrivacyPolicy.com</a>
+        </noscript>
+        <!-- End Cookie Consent -->
+    </body>
+</html>
